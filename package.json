@@ -1,0 +1,17 @@
+{
+  "name": "node-docker-compose-paas",
+  "version": "0.9.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint *.js && mocha test.js"
+  },
+  "dependencies": {
+    "eslint": "^0.21.2",
+    "expect.js": "^0.3.1",
+    "http-proxy": "^1.11.1",
+    "mocha": "^2.2.5",
+    "promisify-node": "^0.1.5",
+    "query-string": "^2.2.0",
+    "ramda": "^0.14.0"
+  }
+}
